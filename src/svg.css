@@ -1,0 +1,14 @@
+text{
+    font-size:10rem;
+    font-weight: bold;
+    fill: #dfac20;
+    stroke: #306f91;
+    stroke-width: 1;
+}
+svg{
+    overflow: visible
+    /*width:100%;
+    height:50%;*/
+
+    
+}

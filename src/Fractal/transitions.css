@@ -1,0 +1,87 @@
+:root{
+    --transDuration:500ms;
+}
+
+
+/*----------------------------ButtonToggler--------------------------*/
+.buttonTogglerTransition-enter{
+    transform:rotate(0deg);
+    
+}
+.buttonTogglerTransition-enter-active{
+    transform:  rotate(180deg);
+    transition: transform var(--transDuration);
+    
+}
+.buttonTogglerTransition-enter-done{
+    transform: rotate(180deg);
+    
+
+   
+}
+.buttonTogglerTransition-exit{
+    transform: rotate(180deg);
+}
+.buttonTogglerTransition-exit-active{
+    transform:  rotate(0deg);
+    transition: transform var(--transDuration);
+}
+.buttonTogglerTransition-exit-done{
+    transform:rotate(360deg);
+    
+}
+
+/*----------------------------Buttons--------------------------*/
+.buttonsTransition-enter{
+    transform:translateX(100%);
+    
+}
+.buttonsTransition-enter-active{
+    transform: translateX(0%) ;
+    transition: transform var(--transDuration);
+    
+}
+.buttonsTransition-enter-done{
+    transform: translateX(0%) ;
+    
+
+   
+}
+.buttonsTransition-exit{
+    transform: translateX(0%) ;
+}
+.buttonsTransition-exit-active{
+    transform: translateX(100%) ;
+    transition: transform var(--transDuration);
+}
+.buttonsTransition-exit-done{
+    
+    transform: translateX(100%)
+}
+/*----------------------------SliderToggler--------------------------*/
+.sliderTransition-enter{
+    transform:translateY(0%);
+    
+}
+.sliderTransition-enter-active{
+    transform: translateY(-120%) ;
+    transition: transform var(--transDuration);
+    
+}
+.sliderTransition-enter-done{
+    transform: translateY(-120%) ;
+    
+
+   
+}
+.sliderTransition-exit{
+    transform: translateY(-120%) ;
+}
+.sliderTransition-exit-active{
+    transform: translateY(0%) ;
+    transition: transform var(--transDuration);
+}
+.sliderTransition-exit-done{
+    
+    transform: translateY(0%)
+}
